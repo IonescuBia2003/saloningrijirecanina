@@ -1,0 +1,69 @@
+/* Stil de bază */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7f9fb;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Titluri */
+h2 {
+  color: #2b6777;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #52ab98;
+  margin-top: 30px;
+}
+
+/* Linkuri */
+a {
+  color: #2b6777;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #52ab98;
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px 15px;
+}
+
+th {
+  background-color: #2b6777;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+tr:hover {
+  background-color: #eaf6f6;
+}
+
+/* Bara de navigare simplă */
+p {
+  background-color: #c8d8e4;
+  padding: 10px;
+  border-radius: 6px;
+  display: inline-block;
+}
